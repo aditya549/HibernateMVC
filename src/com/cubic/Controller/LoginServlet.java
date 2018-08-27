@@ -27,7 +27,7 @@ public class LoginServlet extends HttpServlet{
 		}
 		else
 			out.println("<script>alert('Invalid Details PLease Try Again');</script>");
-		out.println("<script>window.location.href='http://localhost:8085/Hibernate_WebApplication_CRUD';</script>");
+		out.println("<script>window.location.href='http://localhost:8056/Hibernate_WebApplication_CRUD/';</script>");
 	}
 
 }
