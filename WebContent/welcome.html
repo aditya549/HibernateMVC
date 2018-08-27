@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;	
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+</script>
+</head>
+<body >
+<p align="center"><img src="logo_new.jpg" height="60px" width="300px" alt="Cubic Logo" align="middle"></img></p>
+	<h1 align="center" style="text-align: center;font-family:cursive;">Sign in to Cubic</h1>
+	<div style="margin-left: 500px;margin-right: 500px;border:outset;background-color: white">
+	<form action="LoginServlet" method="post">
+	<table cellpadding="8">
+		<tr><td style="font-size: large;font-weight: bold;">Admin Name or Email Id</td></tr>
+		<tr><td><input type="text" name="uname" required="required" style="border: ridge;width: 100%;font-size:x-large;text-decoration: none;font-style: italic;"></td></tr>
+		<tr><td style="font-size: large;font-weight: bold;">Password &nbsp&nbsp&nbsp&nbsp&nbsp<a href="forgotpassword.jsp">Forgot Password?</a></td></tr>
+		<tr><td><input type="password" name="password" required="required" style="border: ridge;width: 100%;font-size:x-large;text-decoration: none;"></td></tr>
+	</table>
+	<input type="submit" value="Submit" style="border: outline;width: 100%;font-size:x-large;background-color: green;text-decoration: none;color:white;font-weight: bold;">
+	</form>
+	</div>
+	<br>
+	
+	<div style="text-align:center;margin-left: 500px;margin-right: 500px;border:outset;background-color: white">
+	<br>
+	New To Cubic? &nbsp<a href="insert.jsp">Create Account Here</a>
+	<br><br>
+</div>
+</body>
+</html>

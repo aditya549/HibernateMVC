@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.cubic.UserBean.EmployeeBean" table="EmployeeRegister">
+		<id name="eid">
+		<generator class="increment"></generator>
+		</id>	
+		<property name="ename" column="ename"></property>
+		<property name="edomain" column="edomain"></property>
+		<property name="esalary" column="esalary"></property>
+		<property name="emailid" column="emailid"></property>
+		<property name="place" column="place"></property>
+		<property name="experience" column="experience"></property>
+	</class>
+	<class name="com.cubic.UserBean.AdminTable" table="AdminTable">
+	<id name="adminname">
+		<generator class="assigned"></generator>
+		</id>
+	<property name="adminname" column="adminname" insert="false" update="false"></property>
+	<property name="adminpassword" column="adminpassword"></property>
+	</class>
+</hibernate-mapping>
