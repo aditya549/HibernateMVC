@@ -8,6 +8,13 @@ public class EmployeeBean {
 	private String emailid;
 	private String place;
 	private String experience;
+	private String mobile;
+	public String getMobile() {
+		return mobile;
+	}
+	public void setMobile(String mobile) {
+		this.mobile = mobile;
+	}
 	private boolean isvalid;
 	public boolean isIsvalid() {
 		return isvalid;

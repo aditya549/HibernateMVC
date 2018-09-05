@@ -12,6 +12,7 @@
 		<property name="esalary" column="esalary"></property>
 		<property name="emailid" column="emailid"></property>
 		<property name="place" column="place"></property>
+		<property name="mobile" column="mobile"></property>
 		<property name="experience" column="experience"></property>
 	</class>
 	<class name="com.cubic.UserBean.AdminTable" table="AdminTable">

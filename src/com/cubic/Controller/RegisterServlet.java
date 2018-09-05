@@ -21,6 +21,7 @@ public class RegisterServlet extends HttpServlet {
 		eb.setEmailid(req.getParameter("email"));
 		eb.setPlace(req.getParameter("place"));
 		eb.setExperience(req.getParameter("exp"));
+		eb.setMobile(req.getParameter("mobile"));
 		System.out.println("Testing Demo");
 		System.out.println(req.getParameter("exp"));
 		System.out.println(req.getParameter("place"));

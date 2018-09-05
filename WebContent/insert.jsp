@@ -31,6 +31,7 @@ Please Fill Bellow Registration Form</p>
 		</select></td></tr>
 		<tr><td>Enter Employee Salary</td><td><input type="text" name="salary"></td></tr>
 		<tr><td>Enter Employee Email id</td><td><input type="text" name="email"></td></tr>
+		<tr><td>Enter Employee Mobile Number</td><td><input type="text" name="mobile"></td></tr>
 		<tr><td>Enter Employee Place</td><td><select name="place">
 		<option value="Hyderabad">Hyderabad</option>
 		<option value="Chennai">Chennai</option>
